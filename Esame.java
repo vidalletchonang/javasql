@@ -68,7 +68,7 @@ public class Main {
         else
         {
             // lo studente non esiste
-            query = "INSERT INTO s (Matr, SNome, citta, ACorso) VALUES ('M11', 'Maurizio Vincini', 'MO', 1);";
+            query = "INSERT INTO s (Matr, SNome, citta, ACorso) VALUES ('M11', 'Vidalle Newgep', 'MO', 1);";
         }
         int res = stmt.executeUpdate(query);
 
